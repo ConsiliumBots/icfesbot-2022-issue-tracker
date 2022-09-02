@@ -2,7 +2,7 @@
 name: Reportar un problema
 about: Ayúdanos a mejorar el bot!
 title: "[BUG] <problema>"
-labels: ''
+labels: bug
 assignees: ''
 
 ---
