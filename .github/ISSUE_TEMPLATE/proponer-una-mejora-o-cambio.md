@@ -2,7 +2,7 @@
 name: Proponer una mejora o cambio
 about: Sugiere un cambio o mejora al bot actual.
 title: "[FEAT] <propuesta>"
-labels: enhancement
+labels: enhancement, icfesbot, upstream
 assignees: ''
 
 ---
