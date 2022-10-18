@@ -43,9 +43,11 @@ body:
   
   - type: markdown
     attributes:
-      value: |
-        "## Screenshots"
-        <!--- Por favor, adjunta imágenes que ayuden a explicar el problema. -->
+      value: "## Screenshots"
+  
+  - type: markdown
+    attributes:
+      value: "<!--- Por favor, adjunta imágenes que ayuden a explicar el problema. -->"
 
   - type: textarea
     id: aditional_context
