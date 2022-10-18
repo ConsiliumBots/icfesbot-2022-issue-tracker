@@ -41,13 +41,13 @@ body:
     validations:
       required: true
   
-  - type: markdown
+  - type: textarea
+    id: screenshots
     attributes:
-      value: "## Screenshots"
-  
-  - type: markdown
-    attributes:
-      value: "<!--- Por favor, adjunta imágenes que ayuden a explicar el problema. -->"
+      label: Screenshots
+      description: Por favor, adjunta imágenes que ayuden a explicar el problema.
+    validations:
+      required: false
 
   - type: textarea
     id: aditional_context
