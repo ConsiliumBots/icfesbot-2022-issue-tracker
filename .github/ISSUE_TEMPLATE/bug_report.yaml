@@ -1,0 +1,56 @@
+name: Reportar un problema
+description: Ayúdanos a mejorar el bot reportando un problema
+labels: ["bug", "icfesbot", "upstream"]
+body:
+
+  - type: checkboxes
+    id: channel
+    attributes:
+      label: Canal
+      description: Canal en el cual sucede este error.
+      options:
+        - label: Whatsapp
+        - label: Web
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Describe el problema
+      description: Describe el problema de la manera más clara posible.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Para reproducirlo
+      description: Pasos para reproducir el error.
+      value: |
+        1. 
+        2. 
+        3. 
+        ...
+    validations:
+      required: false
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Comportamiento esperado
+      description: Descripción de lo que debería suceder.
+    validations:
+      required: true
+  
+  - type: markdown
+    attributes:
+      value: |
+        "## Screenshots"
+        <!--- Por favor, adjunta imágenes que ayuden a explicar el problema. -->
+
+  - type: textarea
+    id: aditional_context
+    attributes:
+      label: Contexto adicional
+      description: Incluye cualquier información adicional que consideres necesaria.
+    validations:
+      required: false
